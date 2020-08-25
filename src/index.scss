@@ -1,0 +1,18 @@
+@import url('https://rsms.me/inter/inter.css');
+
+// General styling
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+    body {
+        font-family: 'Inter var', sans-serif;
+    }
+}
+
+
+// Helper classes
+.col-no-padding {
+    padding: 0;
+}
